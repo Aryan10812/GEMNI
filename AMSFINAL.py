@@ -20,7 +20,7 @@ def image_to_byte_array(image: Image) -> bytes:
 API_KEY = os.environ.get("GOOGLE_API_KEY")
 genai.configure(api_key=API_KEY)
 
-st.image("./Google-Gemini-AI-Logo.png", width=200)
+st.image("./IMG-20240209-WA0001.jpg", width=200)
 st.write("")
 
 # Create a sidebar for history
