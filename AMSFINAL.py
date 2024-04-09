@@ -147,7 +147,7 @@ with st.sidebar:
         for item in st.session_state.history_vision:
             st.markdown(item)
 
-# Move the input box to the bottom and make it fixed
+# Move the input box to the bottom and make it
 st.markdown("""
     <style>
         #MainMenu {visibility: hidden;}
